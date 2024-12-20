@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "CakeBuild\CakeBuild.csproj", "{A55ECD12-BBE8-4DD5-9565-6327AC559A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailorSachet", "TailorSachet\TailorSachet.csproj", "{CC69E126-EA48-46D3-B4AC-ECFE01433CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55ECD12-BBE8-4DD5-9565-6327AC559A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55ECD12-BBE8-4DD5-9565-6327AC559A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55ECD12-BBE8-4DD5-9565-6327AC559A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55ECD12-BBE8-4DD5-9565-6327AC559A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC69E126-EA48-46D3-B4AC-ECFE01433CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC69E126-EA48-46D3-B4AC-ECFE01433CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC69E126-EA48-46D3-B4AC-ECFE01433CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC69E126-EA48-46D3-B4AC-ECFE01433CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {106E5B6F-BCBD-46B0-A065-B2F8677713C2}
+	EndGlobalSection
+EndGlobal

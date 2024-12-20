@@ -1,0 +1,163 @@
+{
+  "code": "dyesachet",
+  "variantgroups": [
+    {
+      "code": "size",
+      "states": [ "small", "medium", "large" ]
+    },
+    {
+      "code": "status",
+      "states": [ "dry", "soaked" ]
+    }
+  ],
+  "allowedVariants": [
+    "dyesachet-small-dry",
+    "dyesachet-medium-dry",
+    "dyesachet-large-dry",
+    "dyesachet-small-soaked",
+    "dyesachet-medium-soaked",
+    "dyesachet-large-soaked"
+  ],
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "ctrlKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    }
+  ],
+  "attributesByType": {
+    "*": {
+      "shelvable": true
+    }
+  },
+  "maxstacksize": 32,
+  "durabilityByType": {
+    "*-small-*": 50,
+    "*-medium-*": 100,
+    "*-large-*": 150
+  },
+  "shapeByType": {
+    "dyesachet-small-dry": { "base": "tailorsachet:item/dyesachet-small" },
+    "dyesachet-medium-dry": { "base": "tailorsachet:item/dyesachet-medium" },
+    "dyesachet-large-dry": { "base": "tailorsachet:item/dyesachet-large" },
+    "dyesachet-small-soaked": { "base": "tailorsachet:item/dyesachet-small-soaked" },
+    "dyesachet-medium-soaked": { "base": "tailorsachet:item/dyesachet-medium-soaked" },
+    "dyesachet-large-soaked": { "base": "tailorsachet:item/dyesachet-large-soaked" }
+  },
+  "texturesByType": {
+    "dyesachet-*-dry": {
+      "top": {
+        "baseByType": {
+          "*": "game:block/cloth/linen/plain"
+        }
+      },
+      "bottom": {
+        "baseByType": {
+          "*": "tailorsachet:item/plain-speckled"
+        }
+      }
+    },
+    "dyesachet-*-soaked": {
+      "top": {
+        "baseByType": {
+          "*": "game:block/cloth/linen/mordant"
+        }
+      },
+      "bottom": {
+        "baseByType": {
+          "*": "tailorsachet:item/mordant-speckled"
+        }
+      }
+    }
+  },
+    "creativeinventory": {
+      "general": [ "*" ],
+      "items": [ "*" ]
+    },
+    "guiTransform": {
+      "translation": {
+        "x": 7,
+        "y": 1,
+        "z": 0
+      },
+      "rotation": {
+        "x": -166,
+        "y": 78,
+        "z": -45
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.1,
+        "z": 0.58
+      },
+      "scale": 3.88
+    },
+    "fpHandTransform": {
+      "translation": {
+        "x": 0.25,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 152,
+        "y": 71,
+        "z": -87
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0.3,
+        "z": 0.5
+      },
+      "scale": 1.82
+    },
+    "tpHandTransform": {
+      "translation": {
+        "x": -1,
+        "y": -0.9,
+        "z": -1.35
+      },
+      "rotation": {
+        "x": 99,
+        "y": -180,
+        "z": 180
+      },
+      "scale": 0.49
+    },
+    "groundTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.25,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.31,
+        "z": 0.5299
+      },
+      "scale": 4
+    }
+  }

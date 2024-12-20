@@ -1,0 +1,164 @@
+[
+  {
+    "ingredientPattern": "T,C,L",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "C": {
+        "type": "block",
+        "code": "game:linen-*",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:crushed-leadoxide",
+        "quantity": 1
+      }
+    },
+    "width": 1,
+    "height": 3,
+    "recipeGroup": 1,
+    "name": "Small Dye Sachet",
+    "output": {
+      "type": "item",
+      "code": "dyesachet-small-dry",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "T_,C_,LL",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "C": {
+        "type": "block",
+        "code": "game:linen-*",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:crushed-leadoxide",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 3,
+    "recipeGroup": 1,
+    "name": "Medium Dye Sachet",
+    "output": {
+      "type": "item",
+      "code": "dyesachet-medium-dry",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "T__,C__,LLL",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 1
+      },
+      "C": {
+        "type": "block",
+        "code": "game:linen-*",
+        "quantity": 1
+      },
+      "L": {
+        "type": "item",
+        "code": "game:crushed-leadoxide",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "name": "Large Dye Sachet",
+    "output": {
+      "type": "item",
+      "code": "dyesachet-large-dry",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "A,S",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-head-tailored-*-linen",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "dyesachet-small-soaked",
+        "quantity": 1
+      }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-tailored-plain-linen"
+    }
+  },
+  {
+    "ingredientPattern": "A,S",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-legs-tailored-*-linen",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "dyesachet-medium-soaked",
+        "quantity": 1
+      }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-tailored-plain-linen"
+    }
+  },
+  {
+    "ingredientPattern": "A,S",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:armor-body-tailored-*-linen",
+        "quantity": 1
+      },
+      "S": {
+        "type": "item",
+        "code": "dyesachet-large-soaked",
+        "quantity": 1
+      }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-tailored-plain-linen"
+    }
+  }
+]

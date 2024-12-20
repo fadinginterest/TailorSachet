@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "tailorsachet",
+    "name": "TailorSachet",
+    "authors": [
+        "Dweomer"
+    ],
+    "description": "Tailoring utilities to recover cloth and remove colors",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}

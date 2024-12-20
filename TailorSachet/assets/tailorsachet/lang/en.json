@@ -1,0 +1,19 @@
+{
+  "tailorsachet:item-stitchpuller": "Stitch puller",
+  "tailorsachet:item-dyesachet-small-dry": "Small dye sachet (dry)",
+  "tailorsachet:item-dyesachet-medium-dry": "Medium dye sachet (dry)",
+  "tailorsachet:item-dyesachet-large-dry": "Large dye sachet (dry)",
+  "tailorsachet:item-dyesachet-small-soaked": "Small dye sachet (soaked)",
+  "tailorsachet:item-dyesachet-medium-soaked": "Medium dye sachet (soaked)",
+  "tailorsachet:item-dyesachet-large-soaked": "Large dye sachet (soaked)",
+
+  "tailorsachet:itemdesc-stitchpuller": "A stitch puller for tailors to recover twine and cloth.",
+  "tailorsachet:itemdesc-dyesachet-small-dry": "A delicate bag filled with a dry powder used by tailors.",
+  "tailorsachet:itemdesc-dyesachet-medium-dry": "A delicate bag packed with a dry powder used by tailors.",
+  "tailorsachet:itemdesc-dyesachet-large-dry": "A delicate bag stuffed with a dry powder used by tailors.",
+  "tailorsachet:itemdesc-dyesachet-small-soaked": "A sodden bag filled with a small portion of reactive paste used by tailors.",
+  "tailorsachet:itemdesc-dyesachet-medium-soaked": "A sodden bag filled with a moderate portion of reactive paste used by tailors.",
+  "tailorsachet:itemdesc-dyesachet-large-soaked": "A sodden bag filled with a heaping portion of reactive paste used by tailors."
+
+
+}

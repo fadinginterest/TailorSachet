@@ -1,0 +1,301 @@
+[
+  {
+    "ingredientPattern": "_M_,TMT",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": 2
+      },
+      "M": {
+        "type": "block",
+        "code": "game:metal-scraps",
+        "quantity": 2
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "Shapeless": true,
+    "name": "Stitch Puller",
+    "output": {
+      "type": "item",
+      "code": "stitchpuller"
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:armor-head-tailored-plain-linen",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:cloth-plain",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:armor-legs-tailored-plain-linen",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:cloth-plain",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:armor-body-tailored-plain-linen",
+        "quantity": 1
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:cloth-plain",
+      "quantity": 10
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-foot-*",
+        "allowedVariants": [ "rottenking", "alchemist", "aristocrat-shoes", "blackguard-shoes", "clockmaker-shoes", "commoner-boots", "forgotten", "forlorn-shoes", "fur-lined-reindeer-herder-shoes", "great-steppe-boots", "high-leather-boots", "hunter-boots", "jailor-boots", "king", "knee-high-fur-boots", "lackey-shoes", "malefactor-boots", "marketeer", "merchant-shoes", "messenger-shoes", "metalcap-boots", "miner", "minstrel-boots", "noble-shoes", "nomad-boots", "peasent-slippers", "prince-boots", "prisoner-binds", "rotwalker", "scribe", "shepherd-sandals", "soldier-boots", "squire-boots", "surgeon", "survivor", "tailor-shoes", "temptress-velvet-shoes", "tigh-high-boots", "wool-lined-knee-high-boots", "worn-leather-boots" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-hand-*",
+        "allowedVariants": [ "clockmaker-wristguard", "commoner-gloves", "deep", "forgotten", "forlorn-bracer", "fur-gloves", "heavy-leather-gloves", "hunter-gloves", "king", "laced-handsome-gloves", "lackey-gloves", "malefactor-gloves", "miner", "minstrel-gloves", "noble-riding-gloves", "prince-gloves", "rottenking", "scribe", "surgeon", "survivor", "tailor-gloves" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-head-*",
+        "allowedVariants": [ "alchemist", "embroidered-coif", "fancy-head-dress", "fortune-tellers-scarf", "hunter-cape", "jailors-hat", "lackey-hat", "marketeer", "merchant-hat", "messengers-hat", "minstrel-hat", "noble-fillet", "peasent-head-scarf", "roll-hat", "rottenking", "rotwalker", "shepherds-cowl", "squire-hood", "tophat" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-lowerbody-*",
+        "allowedVariants": [ "alchemist", "aristocrat-leggings", "blackguard-leggings", "chateau-pants", "clockmaker-pants", "commoner-trousers", "deep", "dirty-linen-trousers", "fine-trousers", "forgotten", "forlorn-pants", "homespun-pants", "hunter-leggings", "jailor-pants", "king", "lackey-breeches", "malefactor-trousers", "marketeer", "merchant-pants", "messenger-trousers", "miner", "minstrel-pants", "noble-pants", "nomad-trousers", "pastoral-pants", "prince-breeches", "raw-hide-trousers", "reindeer-herder-trousers", "rottenking", "rotwalker", "scribe", "shepherd-pants", "skirt", "squire-pants", "surgeon", "survivor", "tailor-trousers", "tattered-peasent-gown", "torn-riding-pants", "warm-woolen-pants", "woolen-leggings", "workmans-gown" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 3
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-shoulder-*",
+        "allowedVariants": [ "alchemist", "aristocrat-mantle", "artisans-scarf", "blacksmith-apron", "clockmaker-apron", "embroidered-collar", "embroidered-tartarean-scarf", "forlorn-sash", "hooded-cape", "hunter-poncho", "jord-robe", "longsleeve-pearl-moonrobe", "malefactor-cloak", "marketeer", "miner", "minstrel-coat", "mooncloth-robe", "noble-fur-collar", "peasent-kaftan", "rotwalker", "royal-fur", "scarf", "scribe", "shortsleeve-pearl-moonrobe", "squire-tunic", "stained-leather-poncho", "surgeon", "survivor", "woolen-scarf" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 3
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-upperbody-*",
+        "allowedVariants": [ "alchemist", "aristocrat-shirt", "azure-embroidered-shirt", "blackguard-shirt", "cendre-shirt", "chateau-blouse", "clockmaker-shirt", "commoner-shirt", "deep", "earth-toned-robe", "forgotten", "forlorn-tunic", "great-steppe-shirt", "homespun-shirt", "hunter-shirt", "jailor-tunic", "king", "lackey-shirt", "linen-tunic", "malefactor-shirt", "marketeer", "merchant-shirt", "messenger-shirt", "miner", "minstrel-shirt", "noble-shirt", "pastoral-shirt", "pearl-shirt", "peasent-shirt", "prince-tunic", "raw-hide-mantle", "reindeer-herder-collared-shirt", "rottenking", "scarlet-ornate-linen-tunic", "scribe", "shepherd-tunic", "squire-shirt", "surgeon", "survivor", "tailor-blouse", "tattered-crimson-tunic", "tattered-linen-shirt", "temptress-velvet-shirt", "woolen-shirt" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-upperbodyover-*",
+        "allowedVariants": [ "cerise-embroidered-reindeer-herder-coat", "clockmaker-tunic", "cobalt-mantle", "commoner-coat", "dim-jasmine-coat", "forgotten", "great-steppe-mantle", "hunter-coat", "hunters-green", "huntsmans-tunic", "king", "malefactor-tunic", "marketeer", "miner", "nomad-mantle", "reindeer-herder-fur-coat", "rottenking", "rotwalker", "spice-merchants-coat", "surgeon", "tailor-jacket", "travelers-earthrobe", "warm-robe" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "C,T",
+    "requiresTrait": "clothier",
+    "ingredients": {
+      "C": {
+        "type": "item",
+        "code": "game:clothes-waist-*",
+        "allowedVariants": [ "alchemist", "aristocrat-belt", "blackguard-belt", "cerise-embroidered-reindeer-herder-waistband", "clockmaker-belt", "fancy-royal-belt", "forlorn-belt", "fortune-teller-hip-scarf", "gold-waist-chain", "heavy-belt", "heavy-tool-belt", "jailor-belt", "king", "linen-rope", "malefactor-sash", "marketeer", "merchant-belt", "messenger-belt", "miner", "moss-embroidered-belt", "noble-sash", "peasant-strap", "prince-waistband", "reindeer-herder-waistband", "rottenking", "scribe", "squire-belt", "sturdy-belt", "sturdy-leather-belt", "tailor-belt" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "stitchpuller",
+        "isTool": true
+      }
+    },
+    "shapeless": true,
+    "width": 2,
+    "height": 1,
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": 1
+    }
+  }
+]
