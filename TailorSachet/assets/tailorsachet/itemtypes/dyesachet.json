@@ -46,6 +46,7 @@
   ],
   "attributesByType": {
     "*": {
+      "displaycaseable": true,
       "shelvable": true
     }
   },

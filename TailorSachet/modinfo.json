@@ -6,7 +6,7 @@
         "Dweomer"
     ],
     "description": "Tailoring utilities to recover cloth and remove colors",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": ""
     }
